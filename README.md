@@ -17,7 +17,7 @@ print(transcribe("睿", dialect="mandarin"))
 print(transcribe("喺", dialect="cantonese"))
 ```
 
-The script returns the IPA transcription with Chao tone numerals in TIPA-compatible LaTeX format.
+The script returns the IPA transcription with Chao tone numerals in TIPA-compatible LaTeX format:
 
 ```python
 睿 [\textipa{\textrtailz ue\textsci}51]
