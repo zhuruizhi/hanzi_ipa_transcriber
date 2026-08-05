@@ -19,6 +19,12 @@ print(transcribe("喺", dialect="cantonese"))
 
 The script returns the IPA transcription with Chao tone numerals in TIPA-compatible LaTeX format.
 
+```python
+睿 [\textipa{\textrtailz ue\textsci}51]
+
+喺 [\textipa{h\textturna j}25]
+```
+
 Before using the output in LaTeX documents, load the `tipa` package:
 
 ```latex
